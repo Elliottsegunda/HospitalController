@@ -31,3 +31,17 @@ nav li a{
     text-decoration: none;
 
 }
+/*header styling*/
+header{
+    background: url(../img/image1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: normal;
+    height: 100vh;
+    /*Flexbox here*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
