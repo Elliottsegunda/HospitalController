@@ -1,3 +1,10 @@
+:root{
+    --primary:#21251f;
+    --secondary:#c8f560;
+    --color3:#4e515c;
+    --color4:#7862f8;
+    
+}
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +12,7 @@
 }
 nav{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+
 }
