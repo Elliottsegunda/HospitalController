@@ -10,6 +10,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+button{
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: var(--secondary);
+    border: none;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -44,4 +50,33 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    text-align: center;
+    color: rgb(15, 15, 15);
+}
+.main-heading{
+    position: absolute;
+    top: 7rem;
+    font-size: var(--font);
+    word-spacing: 10px;
+    margin-bottom: -40px;
+}
+.primary-heading span{
+    color: var(--secondary);
+}
+.primary-heading{
+    position: absolute;
+    bottom: 11rem;
+    margin-bottom: 40px;
+    font-size: var(--font);
+    word-spacing: 10px;
+}
+.main-btn{
+    background: transparent;
+    position: absolute;
+    bottom: 8rem;
+    margin-top: 20px;
+    background-color: var(--secondary);
+    transform: translateY(60px);
+
 }
