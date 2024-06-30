@@ -205,5 +205,10 @@ div.container{
     font-weight: 400;
     font-size: 1.5rem;    
 }
-
+form{
+    background-color: var(--color4);
+    padding: 15px 30px;
+    margin-right: 20px;
+    border
+}
 /*LOGIN PAGE END*/
