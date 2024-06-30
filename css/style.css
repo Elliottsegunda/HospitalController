@@ -10,6 +10,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: var(--primary);
+}
 button{
     padding: 10px 30px;
     cursor: pointer;
@@ -17,6 +20,7 @@ button{
     border: none;
 }
 nav{
+    padding: 30px 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -80,3 +84,100 @@ header{
     transform: translateY(60px);
 
 }
+.why{
+    margin: 10px;
+    padding: 50 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.why div{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.why .mission{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.why div p{
+    margin: 12px 0;
+    text-align: justify;
+}
+.why span{
+    color: var(--secondary);
+    font-weight: bold;
+}
+
+section{
+    margin: 50px 30px;
+    color: #fff;
+}
+section h1{
+    color: var(--secondary);
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 800;
+    margin: 12px 0
+}
+/* features start*/
+div.features{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div.card{
+    width: 25%;
+    padding: 24px 12px;
+    background-color: var(--color3);
+    border-radius: 8px;
+}
+.card-title{
+color: var(--secondary);
+ margin-bottom: 25px;
+ text-align: center;
+ text-decoration: underline;
+}
+.card-body {
+    list-style-position: inside;
+    color: #fff;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.card-body li{
+    margin:12px 0;
+}
+
+/* featues end*/
+/*footer start*/
+footer{
+    background-color: var(--color4);
+    padding: 25px 12px;
+    display: flex;
+    justify-content: space-around;
+}
+footer ul{
+    list-style: none;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+footer h1{
+    color: #fff;
+}
+.dev{
+    padding: 12px;
+    text-align: center;
+    color: #fff;
+}
+.dev a{
+    color: #fff;
+}
+/*footer End*/
